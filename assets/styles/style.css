@@ -1,4 +1,55 @@
-.logo{
+/* ########### TAGS RAIZ SEM CLASSE ###########*/
+#body{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-flow: column wrap;
+
     background-color: gray;
-    width: 20px;
+}
+
+header{
+    background-color: antiquewhite;
+    width: 800px;
+}
+
+main{
+    background-color: azure;
+    width: 800px;
+}
+
+footer{
+    background-color: bisque;
+    width: 800px;
+}
+
+/* ########### IMAGENS ########### */
+.logo_cavalo{
+    background-color: gray;
+    width: 22px;
+}
+
+/* ########### TAGS FILHAS DAS RAIZES COM CLASSE ###########*/
+.header{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;    
+}
+
+#logo{
+    display: flex;
+
+}
+
+#menu ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+
+#menu ul li{
 }
